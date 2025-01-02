@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyqca"
+version = "0.0.1"
+description = "Quantum cellular automata experiments"
+requires-python = ">=3.10"
+authors = [
+	{ name = "Eliot Heinrich", email = "heinriea@bc.edu" },
+]
+
+[tool.setuptools]
+packages = ["pyqca"]
